@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69C8367B1D8250B400A18D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C8367A1D8250B400A18D17 /* AppDelegate.swift */; };
+		69C836931D8250B400A18D17 /* TracktTvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836921D8250B400A18D17 /* TracktTvTests.swift */; };
+		69C8369E1D8250B400A18D17 /* TracktTvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C8369D1D8250B400A18D17 /* TracktTvUITests.swift */; };
+		69C836BA1D825B0C00A18D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C836B31D825B0C00A18D17 /* LaunchScreen.storyboard */; };
+		69C836BB1D825B0C00A18D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C836B41D825B0C00A18D17 /* Main.storyboard */; };
+		69C836BC1D825B0C00A18D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C836B71D825B0C00A18D17 /* Assets.xcassets */; };
+		69C836D11D825B4700A18D17 /* Double+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836BE1D825B4700A18D17 /* Double+Format.swift */; };
+		69C836D21D825B4700A18D17 /* NSDate+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836BF1D825B4700A18D17 /* NSDate+Format.swift */; };
+		69C836D31D825B4700A18D17 /* NSDate+JavascriptTimestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836C01D825B4700A18D17 /* NSDate+JavascriptTimestamp.swift */; };
+		69C836D41D825B4700A18D17 /* NSDateFormatter+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836C11D825B4700A18D17 /* NSDateFormatter+Helper.swift */; };
+		69C836D51D825B4700A18D17 /* NSError+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836C21D825B4700A18D17 /* NSError+Helper.swift */; };
+		69C836D61D825B4700A18D17 /* NSNumberFormatter+Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836C31D825B4700A18D17 /* NSNumberFormatter+Help.swift */; };
+		69C836D71D825B4700A18D17 /* NSObject+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836C41D825B4700A18D17 /* NSObject+Image.swift */; };
+		69C836D81D825B4700A18D17 /* String+Cast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836C51D825B4700A18D17 /* String+Cast.swift */; };
+		69C836D91D825B4700A18D17 /* String+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836C61D825B4700A18D17 /* String+Html.swift */; };
+		69C836DA1D825B4700A18D17 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836C71D825B4700A18D17 /* String+Regex.swift */; };
+		69C836DB1D825B4700A18D17 /* String+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836C81D825B4700A18D17 /* String+Size.swift */; };
+		69C836DC1D825B4700A18D17 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836C91D825B4700A18D17 /* String+Validation.swift */; };
+		69C836DD1D825B4700A18D17 /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836CA1D825B4700A18D17 /* UIColor+Helper.swift */; };
+		69C836DE1D825B4700A18D17 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836CB1D825B4700A18D17 /* UIImage+Color.swift */; };
+		69C836DF1D825B4700A18D17 /* UINavigationController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836CC1D825B4700A18D17 /* UINavigationController+Navigation.swift */; };
+		69C836E01D825B4700A18D17 /* UIVIew+Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836CD1D825B4700A18D17 /* UIVIew+Help.swift */; };
+		69C836E11D825B4700A18D17 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836CE1D825B4700A18D17 /* UIView+Nib.swift */; };
+		69C836E21D825B4700A18D17 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836CF1D825B4700A18D17 /* UIViewController+Alert.swift */; };
+		69C836E31D825B4700A18D17 /* UIViewController+SVProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836D01D825B4700A18D17 /* UIViewController+SVProgressHUD.swift */; };
+		69C836E71D8265CA00A18D17 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836E61D8265CA00A18D17 /* MovieCell.swift */; };
+		69C836E91D8266E500A18D17 /* PopularMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836E81D8266E500A18D17 /* PopularMoviesViewController.swift */; };
+		69C836EB1D82694A00A18D17 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836EA1D82694A00A18D17 /* Movie.swift */; };
+		69C836ED1D82BAD500A18D17 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836EC1D82BAD500A18D17 /* MovieService.swift */; };
+		69C836F21D82C8CF00A18D17 /* ABSRoundedBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836F01D82C8CF00A18D17 /* ABSRoundedBorderView.swift */; };
+		F8F818800D22320F195E31A9 /* Pods_TracktTv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7552EA0389E67D7CB168B49C /* Pods_TracktTv.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69C8368F1D8250B400A18D17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69C8366F1D8250B400A18D17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69C836761D8250B400A18D17;
+			remoteInfo = TracktTv;
+		};
+		69C8369A1D8250B400A18D17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69C8366F1D8250B400A18D17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69C836761D8250B400A18D17;
+			remoteInfo = TracktTv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59F597B45B68CF45E74EA6A3 /* Pods-TracktTv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TracktTv.release.xcconfig"; path = "Pods/Target Support Files/Pods-TracktTv/Pods-TracktTv.release.xcconfig"; sourceTree = "<group>"; };
+		69C836771D8250B400A18D17 /* TracktTv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TracktTv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C8367A1D8250B400A18D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69C836891D8250B400A18D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C8368E1D8250B400A18D17 /* TracktTvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracktTvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C836921D8250B400A18D17 /* TracktTvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracktTvTests.swift; sourceTree = "<group>"; };
+		69C836941D8250B400A18D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C836991D8250B400A18D17 /* TracktTvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracktTvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C8369D1D8250B400A18D17 /* TracktTvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracktTvUITests.swift; sourceTree = "<group>"; };
+		69C8369F1D8250B400A18D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C836B31D825B0C00A18D17 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69C836B41D825B0C00A18D17 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		69C836B71D825B0C00A18D17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69C836BE1D825B4700A18D17 /* Double+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Format.swift"; sourceTree = "<group>"; };
+		69C836BF1D825B4700A18D17 /* NSDate+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Format.swift"; sourceTree = "<group>"; };
+		69C836C01D825B4700A18D17 /* NSDate+JavascriptTimestamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+JavascriptTimestamp.swift"; sourceTree = "<group>"; };
+		69C836C11D825B4700A18D17 /* NSDateFormatter+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDateFormatter+Helper.swift"; sourceTree = "<group>"; };
+		69C836C21D825B4700A18D17 /* NSError+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError+Helper.swift"; sourceTree = "<group>"; };
+		69C836C31D825B4700A18D17 /* NSNumberFormatter+Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNumberFormatter+Help.swift"; sourceTree = "<group>"; };
+		69C836C41D825B4700A18D17 /* NSObject+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Image.swift"; sourceTree = "<group>"; };
+		69C836C51D825B4700A18D17 /* String+Cast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Cast.swift"; sourceTree = "<group>"; };
+		69C836C61D825B4700A18D17 /* String+Html.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Html.swift"; sourceTree = "<group>"; };
+		69C836C71D825B4700A18D17 /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
+		69C836C81D825B4700A18D17 /* String+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Size.swift"; sourceTree = "<group>"; };
+		69C836C91D825B4700A18D17 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		69C836CA1D825B4700A18D17 /* UIColor+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Helper.swift"; sourceTree = "<group>"; };
+		69C836CB1D825B4700A18D17 /* UIImage+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
+		69C836CC1D825B4700A18D17 /* UINavigationController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Navigation.swift"; sourceTree = "<group>"; };
+		69C836CD1D825B4700A18D17 /* UIVIew+Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIVIew+Help.swift"; sourceTree = "<group>"; };
+		69C836CE1D825B4700A18D17 /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		69C836CF1D825B4700A18D17 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		69C836D01D825B4700A18D17 /* UIViewController+SVProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+SVProgressHUD.swift"; sourceTree = "<group>"; };
+		69C836E61D8265CA00A18D17 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		69C836E81D8266E500A18D17 /* PopularMoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularMoviesViewController.swift; sourceTree = "<group>"; };
+		69C836EA1D82694A00A18D17 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		69C836EC1D82BAD500A18D17 /* MovieService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		69C836F01D82C8CF00A18D17 /* ABSRoundedBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSRoundedBorderView.swift; sourceTree = "<group>"; };
+		7552EA0389E67D7CB168B49C /* Pods_TracktTv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TracktTv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8706D229342A033FE36A7A0B /* Pods-TracktTv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TracktTv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TracktTv/Pods-TracktTv.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69C836741D8250B400A18D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F818800D22320F195E31A9 /* Pods_TracktTv.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C8368B1D8250B400A18D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C836961D8250B400A18D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03714CD09FC191D1EAA301FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8706D229342A033FE36A7A0B /* Pods-TracktTv.debug.xcconfig */,
+				59F597B45B68CF45E74EA6A3 /* Pods-TracktTv.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69C8366E1D8250B400A18D17 = {
+			isa = PBXGroup;
+			children = (
+				69C836791D8250B400A18D17 /* TracktTv */,
+				69C836911D8250B400A18D17 /* TracktTvTests */,
+				69C8369C1D8250B400A18D17 /* TracktTvUITests */,
+				69C836781D8250B400A18D17 /* Products */,
+				03714CD09FC191D1EAA301FE /* Pods */,
+				BF24420DD02C12952779FA8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69C836781D8250B400A18D17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69C836771D8250B400A18D17 /* TracktTv.app */,
+				69C8368E1D8250B400A18D17 /* TracktTvTests.xctest */,
+				69C836991D8250B400A18D17 /* TracktTvUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C836791D8250B400A18D17 /* TracktTv */ = {
+			isa = PBXGroup;
+			children = (
+				69C836AC1D825B0C00A18D17 /* Categories */,
+				69C836AD1D825B0C00A18D17 /* Manager */,
+				69C836AE1D825B0C00A18D17 /* Model */,
+				69C836AF1D825B0C00A18D17 /* Presentation */,
+				69C836B61D825B0C00A18D17 /* Resources */,
+				69C836B81D825B0C00A18D17 /* Services */,
+				69C836AB1D825AEE00A18D17 /* Suporting Files */,
+				69C8367A1D8250B400A18D17 /* AppDelegate.swift */,
+			);
+			path = TracktTv;
+			sourceTree = "<group>";
+		};
+		69C836911D8250B400A18D17 /* TracktTvTests */ = {
+			isa = PBXGroup;
+			children = (
+				69C836921D8250B400A18D17 /* TracktTvTests.swift */,
+				69C836941D8250B400A18D17 /* Info.plist */,
+			);
+			path = TracktTvTests;
+			sourceTree = "<group>";
+		};
+		69C8369C1D8250B400A18D17 /* TracktTvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69C8369D1D8250B400A18D17 /* TracktTvUITests.swift */,
+				69C8369F1D8250B400A18D17 /* Info.plist */,
+			);
+			path = TracktTvUITests;
+			sourceTree = "<group>";
+		};
+		69C836AB1D825AEE00A18D17 /* Suporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69C836891D8250B400A18D17 /* Info.plist */,
+			);
+			name = "Suporting Files";
+			sourceTree = "<group>";
+		};
+		69C836AC1D825B0C00A18D17 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				69C836BD1D825B4700A18D17 /* General */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		69C836AD1D825B0C00A18D17 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		69C836AE1D825B0C00A18D17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69C836EA1D82694A00A18D17 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69C836AF1D825B0C00A18D17 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				69C836B01D825B0C00A18D17 /* Controllers */,
+				69C836B21D825B0C00A18D17 /* Storyboards */,
+				69C836B51D825B0C00A18D17 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		69C836B01D825B0C00A18D17 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69C836E81D8266E500A18D17 /* PopularMoviesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		69C836B21D825B0C00A18D17 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				69C836B31D825B0C00A18D17 /* LaunchScreen.storyboard */,
+				69C836B41D825B0C00A18D17 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		69C836B51D825B0C00A18D17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69C836E51D8265A600A18D17 /* CollectionCell */,
+				69C836E41D82657400A18D17 /* TableViewCell */,
+				69C836EE1D82C8CF00A18D17 /* View */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69C836B61D825B0C00A18D17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69C836B71D825B0C00A18D17 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		69C836B81D825B0C00A18D17 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				69C836EC1D82BAD500A18D17 /* MovieService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		69C836BD1D825B4700A18D17 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				69C836BE1D825B4700A18D17 /* Double+Format.swift */,
+				69C836BF1D825B4700A18D17 /* NSDate+Format.swift */,
+				69C836C01D825B4700A18D17 /* NSDate+JavascriptTimestamp.swift */,
+				69C836C11D825B4700A18D17 /* NSDateFormatter+Helper.swift */,
+				69C836C21D825B4700A18D17 /* NSError+Helper.swift */,
+				69C836C31D825B4700A18D17 /* NSNumberFormatter+Help.swift */,
+				69C836C41D825B4700A18D17 /* NSObject+Image.swift */,
+				69C836C51D825B4700A18D17 /* String+Cast.swift */,
+				69C836C61D825B4700A18D17 /* String+Html.swift */,
+				69C836C71D825B4700A18D17 /* String+Regex.swift */,
+				69C836C81D825B4700A18D17 /* String+Size.swift */,
+				69C836C91D825B4700A18D17 /* String+Validation.swift */,
+				69C836CA1D825B4700A18D17 /* UIColor+Helper.swift */,
+				69C836CB1D825B4700A18D17 /* UIImage+Color.swift */,
+				69C836CC1D825B4700A18D17 /* UINavigationController+Navigation.swift */,
+				69C836CD1D825B4700A18D17 /* UIVIew+Help.swift */,
+				69C836CE1D825B4700A18D17 /* UIView+Nib.swift */,
+				69C836CF1D825B4700A18D17 /* UIViewController+Alert.swift */,
+				69C836D01D825B4700A18D17 /* UIViewController+SVProgressHUD.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		69C836E41D82657400A18D17 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		69C836E51D8265A600A18D17 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				69C836E61D8265CA00A18D17 /* MovieCell.swift */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		69C836EE1D82C8CF00A18D17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69C836F01D82C8CF00A18D17 /* ABSRoundedBorderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF24420DD02C12952779FA8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7552EA0389E67D7CB168B49C /* Pods_TracktTv.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69C836761D8250B400A18D17 /* TracktTv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C836A21D8250B400A18D17 /* Build configuration list for PBXNativeTarget "TracktTv" */;
+			buildPhases = (
+				8FA6E72C160B9C02CBE8CF40 /* [CP] Check Pods Manifest.lock */,
+				69C836731D8250B400A18D17 /* Sources */,
+				69C836741D8250B400A18D17 /* Frameworks */,
+				69C836751D8250B400A18D17 /* Resources */,
+				E58567C98AFC5B504F0C7F36 /* [CP] Embed Pods Frameworks */,
+				47F9E274182F7C1609371C3A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TracktTv;
+			productName = TracktTv;
+			productReference = 69C836771D8250B400A18D17 /* TracktTv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69C8368D1D8250B400A18D17 /* TracktTvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C836A51D8250B400A18D17 /* Build configuration list for PBXNativeTarget "TracktTvTests" */;
+			buildPhases = (
+				69C8368A1D8250B400A18D17 /* Sources */,
+				69C8368B1D8250B400A18D17 /* Frameworks */,
+				69C8368C1D8250B400A18D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69C836901D8250B400A18D17 /* PBXTargetDependency */,
+			);
+			name = TracktTvTests;
+			productName = TracktTvTests;
+			productReference = 69C8368E1D8250B400A18D17 /* TracktTvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69C836981D8250B400A18D17 /* TracktTvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C836A81D8250B400A18D17 /* Build configuration list for PBXNativeTarget "TracktTvUITests" */;
+			buildPhases = (
+				69C836951D8250B400A18D17 /* Sources */,
+				69C836961D8250B400A18D17 /* Frameworks */,
+				69C836971D8250B400A18D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69C8369B1D8250B400A18D17 /* PBXTargetDependency */,
+			);
+			name = TracktTvUITests;
+			productName = TracktTvUITests;
+			productReference = 69C836991D8250B400A18D17 /* TracktTvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69C8366F1D8250B400A18D17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Trivago;
+				TargetAttributes = {
+					69C836761D8250B400A18D17 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					69C8368D1D8250B400A18D17 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 69C836761D8250B400A18D17;
+					};
+					69C836981D8250B400A18D17 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 69C836761D8250B400A18D17;
+					};
+				};
+			};
+			buildConfigurationList = 69C836721D8250B400A18D17 /* Build configuration list for PBXProject "TracktTv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69C8366E1D8250B400A18D17;
+			productRefGroup = 69C836781D8250B400A18D17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69C836761D8250B400A18D17 /* TracktTv */,
+				69C8368D1D8250B400A18D17 /* TracktTvTests */,
+				69C836981D8250B400A18D17 /* TracktTvUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69C836751D8250B400A18D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C836BA1D825B0C00A18D17 /* LaunchScreen.storyboard in Resources */,
+				69C836BC1D825B0C00A18D17 /* Assets.xcassets in Resources */,
+				69C836BB1D825B0C00A18D17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C8368C1D8250B400A18D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C836971D8250B400A18D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47F9E274182F7C1609371C3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TracktTv/Pods-TracktTv-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FA6E72C160B9C02CBE8CF40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E58567C98AFC5B504F0C7F36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TracktTv/Pods-TracktTv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C836731D8250B400A18D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C836E91D8266E500A18D17 /* PopularMoviesViewController.swift in Sources */,
+				69C836E01D825B4700A18D17 /* UIVIew+Help.swift in Sources */,
+				69C836DB1D825B4700A18D17 /* String+Size.swift in Sources */,
+				69C836E11D825B4700A18D17 /* UIView+Nib.swift in Sources */,
+				69C836DF1D825B4700A18D17 /* UINavigationController+Navigation.swift in Sources */,
+				69C836D61D825B4700A18D17 /* NSNumberFormatter+Help.swift in Sources */,
+				69C836E31D825B4700A18D17 /* UIViewController+SVProgressHUD.swift in Sources */,
+				69C836DA1D825B4700A18D17 /* String+Regex.swift in Sources */,
+				69C836D71D825B4700A18D17 /* NSObject+Image.swift in Sources */,
+				69C836D21D825B4700A18D17 /* NSDate+Format.swift in Sources */,
+				69C836D91D825B4700A18D17 /* String+Html.swift in Sources */,
+				69C836D11D825B4700A18D17 /* Double+Format.swift in Sources */,
+				69C836DD1D825B4700A18D17 /* UIColor+Helper.swift in Sources */,
+				69C836EB1D82694A00A18D17 /* Movie.swift in Sources */,
+				69C836DE1D825B4700A18D17 /* UIImage+Color.swift in Sources */,
+				69C836E71D8265CA00A18D17 /* MovieCell.swift in Sources */,
+				69C836D41D825B4700A18D17 /* NSDateFormatter+Helper.swift in Sources */,
+				69C836D51D825B4700A18D17 /* NSError+Helper.swift in Sources */,
+				69C836F21D82C8CF00A18D17 /* ABSRoundedBorderView.swift in Sources */,
+				69C836E21D825B4700A18D17 /* UIViewController+Alert.swift in Sources */,
+				69C836D31D825B4700A18D17 /* NSDate+JavascriptTimestamp.swift in Sources */,
+				69C8367B1D8250B400A18D17 /* AppDelegate.swift in Sources */,
+				69C836D81D825B4700A18D17 /* String+Cast.swift in Sources */,
+				69C836DC1D825B4700A18D17 /* String+Validation.swift in Sources */,
+				69C836ED1D82BAD500A18D17 /* MovieService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C8368A1D8250B400A18D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C836931D8250B400A18D17 /* TracktTvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C836951D8250B400A18D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C8369E1D8250B400A18D17 /* TracktTvUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69C836901D8250B400A18D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69C836761D8250B400A18D17 /* TracktTv */;
+			targetProxy = 69C8368F1D8250B400A18D17 /* PBXContainerItemProxy */;
+		};
+		69C8369B1D8250B400A18D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69C836761D8250B400A18D17 /* TracktTv */;
+			targetProxy = 69C8369A1D8250B400A18D17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		69C836A01D8250B400A18D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69C836A11D8250B400A18D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69C836A31D8250B400A18D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8706D229342A033FE36A7A0B /* Pods-TracktTv.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TracktTv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trivago.aturo.gamarra.TracktTv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69C836A41D8250B400A18D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F597B45B68CF45E74EA6A3 /* Pods-TracktTv.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TracktTv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trivago.aturo.gamarra.TracktTv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69C836A61D8250B400A18D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TracktTvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trivago.aturo.gamarra.TracktTvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TracktTv.app/TracktTv";
+			};
+			name = Debug;
+		};
+		69C836A71D8250B400A18D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TracktTvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trivago.aturo.gamarra.TracktTvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TracktTv.app/TracktTv";
+			};
+			name = Release;
+		};
+		69C836A91D8250B400A18D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TracktTvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trivago.aturo.gamarra.TracktTvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TracktTv;
+			};
+			name = Debug;
+		};
+		69C836AA1D8250B400A18D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TracktTvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trivago.aturo.gamarra.TracktTvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TracktTv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69C836721D8250B400A18D17 /* Build configuration list for PBXProject "TracktTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C836A01D8250B400A18D17 /* Debug */,
+				69C836A11D8250B400A18D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C836A21D8250B400A18D17 /* Build configuration list for PBXNativeTarget "TracktTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C836A31D8250B400A18D17 /* Debug */,
+				69C836A41D8250B400A18D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C836A51D8250B400A18D17 /* Build configuration list for PBXNativeTarget "TracktTvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C836A61D8250B400A18D17 /* Debug */,
+				69C836A71D8250B400A18D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C836A81D8250B400A18D17 /* Build configuration list for PBXNativeTarget "TracktTvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C836A91D8250B400A18D17 /* Debug */,
+				69C836AA1D8250B400A18D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69C8366F1D8250B400A18D17 /* Project object */;
+}
