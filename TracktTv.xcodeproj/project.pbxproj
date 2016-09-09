@@ -37,6 +37,8 @@
 		69C836EB1D82694A00A18D17 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836EA1D82694A00A18D17 /* Movie.swift */; };
 		69C836ED1D82BAD500A18D17 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836EC1D82BAD500A18D17 /* MovieService.swift */; };
 		69C836F21D82C8CF00A18D17 /* ABSRoundedBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836F01D82C8CF00A18D17 /* ABSRoundedBorderView.swift */; };
+		69C836F41D82D2A400A18D17 /* MovieSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836F31D82D2A400A18D17 /* MovieSearchViewController.swift */; };
+		69C836F61D82DD4900A18D17 /* SearchMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C836F51D82DD4900A18D17 /* SearchMovieCell.swift */; };
 		F8F818800D22320F195E31A9 /* Pods_TracktTv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7552EA0389E67D7CB168B49C /* Pods_TracktTv.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +97,8 @@
 		69C836EA1D82694A00A18D17 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		69C836EC1D82BAD500A18D17 /* MovieService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		69C836F01D82C8CF00A18D17 /* ABSRoundedBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSRoundedBorderView.swift; sourceTree = "<group>"; };
+		69C836F31D82D2A400A18D17 /* MovieSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSearchViewController.swift; sourceTree = "<group>"; };
+		69C836F51D82DD4900A18D17 /* SearchMovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMovieCell.swift; sourceTree = "<group>"; };
 		7552EA0389E67D7CB168B49C /* Pods_TracktTv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TracktTv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8706D229342A033FE36A7A0B /* Pods-TracktTv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TracktTv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TracktTv/Pods-TracktTv.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -234,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				69C836E81D8266E500A18D17 /* PopularMoviesViewController.swift */,
+				69C836F31D82D2A400A18D17 /* MovieSearchViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 		69C836E41D82657400A18D17 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				69C836F51D82DD4900A18D17 /* SearchMovieCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -526,11 +532,13 @@
 				69C836D11D825B4700A18D17 /* Double+Format.swift in Sources */,
 				69C836DD1D825B4700A18D17 /* UIColor+Helper.swift in Sources */,
 				69C836EB1D82694A00A18D17 /* Movie.swift in Sources */,
+				69C836F61D82DD4900A18D17 /* SearchMovieCell.swift in Sources */,
 				69C836DE1D825B4700A18D17 /* UIImage+Color.swift in Sources */,
 				69C836E71D8265CA00A18D17 /* MovieCell.swift in Sources */,
 				69C836D41D825B4700A18D17 /* NSDateFormatter+Helper.swift in Sources */,
 				69C836D51D825B4700A18D17 /* NSError+Helper.swift in Sources */,
 				69C836F21D82C8CF00A18D17 /* ABSRoundedBorderView.swift in Sources */,
+				69C836F41D82D2A400A18D17 /* MovieSearchViewController.swift in Sources */,
 				69C836E21D825B4700A18D17 /* UIViewController+Alert.swift in Sources */,
 				69C836D31D825B4700A18D17 /* NSDate+JavascriptTimestamp.swift in Sources */,
 				69C8367B1D8250B400A18D17 /* AppDelegate.swift in Sources */,

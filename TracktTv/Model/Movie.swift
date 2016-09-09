@@ -17,6 +17,7 @@ class Movie: NSObject {
     var imdb:String = ""
     var tmdb:Int = 0
     var trakt:Int = 0
+    var overview:String = ""
     var thumbImageURL:String = ""
     
     // MARK: - Public
@@ -27,6 +28,16 @@ class Movie: NSObject {
         self.trakt = json["ids"]["trakt"].intValue
         self.imdb = json["ids"]["imdb"].stringValue
         self.thumbImageURL = json["images"]["poster"]["thumb"].stringValue
+    }
+    
+    func copySearchFromJSON(json:JSON) {
+        self.title = json["movie"]["title"].stringValue
+        self.year = json["movie"]["year"].intValue
+        self.tmdb = json["ids"]["tmdb"].intValue
+        self.trakt = json["movie"]["ids"]["trakt"].intValue
+        self.imdb = json["movie"]["ids"]["imdb"].stringValue
+        self.overview = json["movie"]["overview"].stringValue
+        self.thumbImageURL = json["movie"]["images"]["poster"]["thumb"].stringValue
     }
     
     class func moviesFromJSONArray(jsonArray:[JSON]) -> [Movie] {
